@@ -1,0 +1,44 @@
+body{
+  padding-left:20px;
+}
+
+button{
+  border-radius:100px;
+  height:40px;
+  width:150px;
+  color:white;
+  border:none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#join{
+  background-color: dodgerblue;
+}
+#Setting{
+  background-color: cadetblue;
+}
+#Login{
+  background-color: rgb(218, 91, 32);
+}
+#Contact{
+  background-color: brown;
+}
+#Search{
+  background-color: green;
+}
+#Help{
+  background-color: darkslateblue;
+}
+#Home{
+  background-color: rgb(230, 125, 160);
+}
+#Download{
+  background-color: peru;
+}
+#container{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: repeat(2,150px);
+  grid-template-rows: repeat(4,40px);
+  gap:20px
+}
